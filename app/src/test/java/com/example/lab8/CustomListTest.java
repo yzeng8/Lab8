@@ -36,6 +36,8 @@ public class CustomListTest {
     public void testHasCity(){
         CustomList list = new CustomList(null,citylist);
         City city = new City ("Edmonton","AB");
+        assertEquals(false,list.hasCity(city));
+        list.addCity(city);
         assertEquals(true,list.hasCity(city));
 
     }
