@@ -53,11 +53,12 @@ public class CustomList extends ArrayAdapter<City> {
         this.cities.add(city);
     }
 
-    public void hasCity(City city){
-
+    public boolean hasCity(City city){
+        boolean flag = false;
+        return flag;
     }
     public void deleteCity (City city){
-
+        this.cities.remove(city);
     }
     public void countCity (City city){
 

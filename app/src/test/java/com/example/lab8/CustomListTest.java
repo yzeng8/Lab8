@@ -32,4 +32,5 @@ public class CustomListTest {
         assertEquals(0,list.getCount());
 
     }
+
 }
